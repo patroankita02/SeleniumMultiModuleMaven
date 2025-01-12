@@ -1,0 +1,11 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÂëóÑ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚâĞûÿÿÿÿ
+<
+java:S5164
+"&Call "remove()" on "tlYAMLDataReader".(˜×à
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸĞ›—
+X	java:S125/"<This block of commented-out lines of code should be removed.(Ú°à¬8ĞË˜¼Å2
+Q
+java:S1068
+"4Remove this unused "tlYAMLDataReader" private field.(˜×à8ĞË˜¼Å2

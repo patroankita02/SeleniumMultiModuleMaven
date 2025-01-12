@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="Utils.Listener"/>
+    </listeners>
+    <test name="Test1_Chrome">
+        <!-- Passing Cucumber tags as a parameter -->
+        <parameter name="yamlPath" value="testData.yaml"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="cucumber.tags" value="@regression"/>
+        <classes>
+            <class name="TestRunner.Runner"/>
+        </classes>
+    </test>
+    <test name="Test1_firefox">
+        <parameter name="yamlPath" value="testData.yaml"/>
+        <parameter name="browser" value="firefox"/>
+        <parameter name="cucumber.tags" value="@regression"/>
+        <classes>
+            <class name="TestRunner.Runner"/>
+        </classes>
+    </test>
+</suite>
